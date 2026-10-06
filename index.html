@@ -1,1 +1,37 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Minha Loja — Gestão</title><meta name="description" content="Controle suas vendas, produtos e fiados."><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23329542'/%3E%3Cpath d='M10 29V18h20v11M8 12h24l-3 6H11z' fill='none' stroke='white' stroke-width='3'/%3E%3C/svg%3E"><link rel="stylesheet" href="style.css"></head><body><header><button class="icon" id="menu" aria-label="Abrir menu" aria-expanded="false">☰</button><a class="brand" href="#home"><span class="brand-icon">▥</span>Minha Loja<span class="brand-sub">GESTÃO</span></a><div class="profile"><span>Minha conta<small>Administrador</small></span><button class="avatar" aria-label="Perfil do usuário" id="profile">CL</button></div></header><div id="shade" hidden></div><aside id="nav"><p class="nav-label">SUA LOJA</p><nav><a href="#sale">＋ <span>Nova Venda</span></a><a href="#home">▥ <span>Análise de Vendas</span></a><a href="#dashboard">◫ <span>Dashboard</span></a><a href="#sales">↗ <span>Vendas</span></a><a href="#stock">▦ <span>Estoque</span></a><a href="#credit">◷ <span>Fiado</span></a></nav><div class="nav-bottom"><span class="dot"></span> Dados salvos neste dispositivo<small>Seu controle, sempre à mão.</small></div></aside><main id="app"></main><dialog id="modal"><div id="modal-body"></div></dialog><div id="toast" role="status"></div><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Minha Loja — Gestão</title>
+    <meta name="description" content="Controle suas vendas, produtos e fiados.">
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23329542'/%3E%3Cpath d='M10 29V18h20v11M8 12h24l-3 6H11z' fill='none' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header><button class="icon" id="menu" aria-label="Abrir menu" aria-expanded="false">☰</button><a class="brand"
+            href="#home"><span class="brand-icon">▥</span>Minha Loja<span class="brand-sub">GESTÃO</span></a>
+        <div class="profile"><span>Minha conta<small>Administrador</small></span><button class="avatar"
+                aria-label="Perfil do usuário" id="profile">CL</button></div>
+    </header>
+    <div id="shade" hidden></div>
+    <aside id="nav">
+        <p class="nav-label">SUA LOJA</p>
+        <nav><a href="#sale">＋ <span>Nova Venda</span></a><a href="#home">▥ <span>Análise de Vendas</span></a><a
+                href="#dashboard">◫ <span>Dashboard</span></a><a href="#sales">↗ <span>Vendas</span></a><a
+                href="#stock">▦ <span>Estoque</span></a><a href="#credit">◷ <span>Fiado</span></a></nav>
+        <div class="nav-bottom"><span class="dot"></span> Dados salvos neste dispositivo<small>Seu controle, sempre à
+                mão.</small></div>
+    </aside>
+    <main id="app"></main>
+    <dialog id="modal">
+        <div id="modal-body"></div>
+    </dialog>
+    <div id="toast" role="status"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
